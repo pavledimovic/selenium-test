@@ -49,8 +49,8 @@ public class signUpTest {
 	@When("^I enter user name and valid email$")
 	public void I_enter_user_name_and_valid_email() throws Throwable {
 
-		driver.findElement(By.id("register_name")).sendKeys("pavllvd");
-		driver.findElement(By.id("register_email")).sendKeys("aon34065@ebbob.com");
+		driver.findElement(By.id("register_name")).sendKeys("pavlltvd");
+		driver.findElement(By.id("register_email")).sendKeys("flb81054@iencm.com");
 		driver.findElement(By.id("register_password")).sendKeys("12345678");
 		driver.findElement(By.id("register_password2")).sendKeys("12345678");
 	}
